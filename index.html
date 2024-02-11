@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Order</title>
+</head>
+<body>
+
+    <div class="body">
+    
+        <header class="container header">
+            <h1>Jimmy’s Diner</h1>
+            <p>The best burgers and pizzas in town.</p>
+        </header>
+    
+        <section class="container">
+    
+            <section class="items">
+                <article class="item">
+                    <p class="item-img">🍕</p>
+                    <div class="item-details">
+                        <p class="item-name">Pizza</p>
+                        <p class="item-ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item-price">$14</p>
+                    </div>
+                    <button class="item-btn">+</button>
+                </article>
+                <article class="item">
+                    <p class="item-img">🍕</p>
+                    <div class="item-details">
+                        <p class="item-name">Pizza</p>
+                        <p class="item-ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item-price">$14</p>
+                    </div>
+                    <button class="item-btn">+</button>
+                </article>
+                <article class="item">
+                    <p class="item-img">🍕</p>
+                    <div class="item-details">
+                        <p class="item-name">Pizza</p>
+                        <p class="item-ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item-price">$14</p>
+                    </div>
+                    <button class="item-btn">+</button>
+                </article>
+            </section>
+    
+            <section class="orders">
+                <h2>Your order</h2>
+                <div class="orders-list">
+                    <div class="order-container">
+                        <div class="order">
+                            <p class="order-name">
+                                Pizza
+                                <span class="remove">remove</span>
+                            </p>
+                            <p class="order-price">$14</p>
+                        </div>
+                        <div class="order">
+                            <p class="order-name">
+                                Pizza
+                                <span class="remove">remove</span>
+                            </p>
+                            <p class="order-price">$14</p>
+                        </div>
+                        <div class="order">
+                            <p class="order-name">
+                                Pizza
+                                <span class="remove">remove</span>
+                            </p>
+                            <p class="order-price">$14</p>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <p class="order-name">Total price:</p>
+                        <p class="order-price">$28</p>
+                    </div>
+                </div>
+                <button class="order-btn">
+                    Complete Order
+                </button>
+            </section>
+    
+            <section class="order-completion">
+                <p>Thanks, James! Your order is on its way!</p>
+            </section>
+    
+        </section>
+    
+        <section class="modal">
+            <div class="modal-content">
+                <h2>Enter card details</h2>
+                <div class="inputs">
+                    <div class="input">
+                        <input 
+                            type="text"
+                            placeholder="Enter your name"
+                        >
+                    </div>
+                    <div class="input">
+                        <input 
+                            type="text"
+                            placeholder="Enter card number"
+                        >
+                    </div>
+                    <div class="input">
+                        <input 
+                            type="text"
+                            placeholder="Enter CVV"
+                        >
+                    </div>
+                </div>
+                <button class="close-modal">Pay</button>
+            </div>
+        </section>
+    
+    </div>
+    
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
