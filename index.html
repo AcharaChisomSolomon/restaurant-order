@@ -20,48 +20,12 @@
     
         <section class="container">
     
-            <section class="items">
-                
-            </section>
+            <section class="items"></section>
     
-            <section class="orders">
-                <h2>Your order</h2>
-                <div class="orders-list">
-                    <div class="order-container">
-                        <div class="order">
-                            <p class="order-name">
-                                Pizza
-                                <span class="remove">remove</span>
-                            </p>
-                            <p class="order-price">$14</p>
-                        </div>
-                        <div class="order">
-                            <p class="order-name">
-                                Pizza
-                                <span class="remove">remove</span>
-                            </p>
-                            <p class="order-price">$14</p>
-                        </div>
-                        <div class="order">
-                            <p class="order-name">
-                                Pizza
-                                <span class="remove">remove</span>
-                            </p>
-                            <p class="order-price">$14</p>
-                        </div>
-                    </div>
-                    <div class="total">
-                        <p class="order-name">Total price:</p>
-                        <p class="order-price">$28</p>
-                    </div>
-                </div>
-                <button class="order-btn">
-                    Complete Order
-                </button>
-            </section>
+            <section class="orders"></section>
     
             <section class="order-completion">
-                <p>Thanks, James! Your order is on its way!</p>
+                
             </section>
     
         </section>
@@ -69,27 +33,27 @@
         <section class="modal">
             <div class="modal-content">
                 <h2>Enter card details</h2>
-                <div class="inputs">
-                    <div class="input">
-                        <input 
-                            type="text"
-                            placeholder="Enter your name"
-                        >
-                    </div>
-                    <div class="input">
-                        <input 
-                            type="text"
-                            placeholder="Enter card number"
-                        >
-                    </div>
-                    <div class="input">
-                        <input 
-                            type="text"
-                            placeholder="Enter CVV"
-                        >
-                    </div>
-                </div>
-                <button class="close-modal">Pay</button>
+                <form class="modal-form">
+                    <input 
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                    <input 
+                        type="text"
+                        name="cardNumber"
+                        placeholder="Enter card number"
+                        required
+                    >
+                    <input 
+                        type="text"
+                        name="cvv"
+                        placeholder="Enter CVV"
+                        required
+                    >
+                    <button type="submit" class="close-modal">Pay</button>
+                </form>
             </div>
         </section>
     
