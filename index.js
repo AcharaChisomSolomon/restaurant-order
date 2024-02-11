@@ -94,6 +94,8 @@ const displayOrderHtml = (obj) => {
                 Complete Order
             </button>
     `;
+
+    orderCompletionDisplay.style.display = 'none';
     ordersDisplay.style.display = 'block';
     ordersDisplay.innerHTML = html;
 }
